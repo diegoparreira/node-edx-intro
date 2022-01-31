@@ -1,0 +1,39 @@
+body {
+    background-color: coral;
+}
+
+#add {
+    margin-top: 1em;
+    width: 20rem;
+    display: none;
+}
+
+#add input {
+    margin-bottom: .5em;
+}
+
+[name="name"], [name="price"] {
+    width: calc(10rem - 2px);
+}
+
+[name="info"] {
+    width: 20rem;
+}
+
+#add button {
+    font-weight: bold;
+    width: 5em;
+    float: right;
+}
+
+details {
+    font-size: 1.5em;
+}
+
+summary {
+    cursor: pointer;
+}
+
+p {
+    text-indent: 1.5rem;
+}
